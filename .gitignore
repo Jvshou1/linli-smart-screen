@@ -1,0 +1,25 @@
+# Tool output and local state
+src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/
+src/td_project/log/
+*.log
+*.logw
+*.bit
+*.bin
+*.qor
+*.bid
+*.ini
+__pycache__/
+*.pyc
+
+# Anlogic-generated or encrypted vendor IP (regenerate with TD/official IP package)
+*.enc.v
+*.vhd
+src/td_project/al_ip/*.v
+src/user_source/ip_source/*.v
+src/user_source/hdl_source/IP/afifo_16_256.v
+src/user_source/hdl_source/IP/afifo_16_256_sim.v
+src/user_source/hdl_source/IP/afifo_16_32_256.v
+src/user_source/hdl_source/IP/afifo_32_16_256.v
+src/user_source/hdl_source/IP/sdram.v
+src/user_source/hdl_source/IP/sys_pll.v
+src/user_source/hdl_source/IP/video_pll.v
